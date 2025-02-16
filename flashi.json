@@ -1,7 +1,7 @@
 {
   "latest_version": "1.1.0",
   "download_link": "https://example.com/download",
-  "under_maintenance": true,
+  "under_maintenance": false,
   "reason_maintenance_ai": "Fixing minor issues to be fix.",
   "ai_models": [
     {
