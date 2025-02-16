@@ -2,6 +2,32 @@
   "latest_version": "1.1.0",
   "download_link": "https://example.com/download",
   "under_maintenance": true,
-  "reason_maintenance_ai": "Minor improvements to AI integration are in progress. You can continue using the custom flashcard creator for the time being."
+  "reason_maintenance": "Fixing minor issues in AI Integration",
+  "ai_models": [
+    {
+      "model_name": "Model A",
+      "version": "1.0.0",
+      "description": "A high-performance model for natural language processing."
+    },
+    {
+      "model_name": "Model B",
+      "version": "1.2.3",
+      "description": "An advanced model designed for image recognition."
+    },
+    {
+      "model_name": "Model C",
+      "version": "2.0.1",
+      "description": "A robust model for predictive analytics and forecasting."
+    },
+    {
+      "model_name": "Model D",
+      "version": "3.1.4",
+      "description": "A fast and efficient model optimized for real-time data processing."
+    },
+    {
+      "model_name": "Model E",
+      "version": "0.9.7",
+      "description": "A lightweight model aimed at mobile applications and edge computing."
+    }
+  ]
 }
-
