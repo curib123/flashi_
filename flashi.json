@@ -32,5 +32,5 @@
     "Enumeration": "Generate ${maxLength} summarize enumeration-type questions and answers from the following text in this format accurately don't put title, heading, or guide:\n\nTEXT:\n\"$textChunk\"\n\nExample Output:\nQuestion: List the stages of cell division?\nAnswer: Prophase, Metaphase, Anaphase, Telophase\n\nQuestion: Name the primary colors.\nAnswer: Red, Blue, Yellow",
     "True_False": "Generate ${maxLength} true or false questions and answers from the following text in this format accurately don't put title, heading, or guide:\n\nTEXT:\n\"$textChunk\"\n\nExample Output:\nQuestion: Metabolism is the process of breaking down food into nutrients. (True/False)?\nAnswer: True\n\nQuestion: The capital of Germany is Paris. (True/False)?\nAnswer: False"
   },
-  "ListOfMaxLength": [20, 30, 40, 50, 60, 70, 80, 90, 100]
+  "ListOfMaxLength": [20, 30, 40, 50, 60, 70, 80]
 }
