@@ -51,25 +51,32 @@
         <p>At Flashi, your privacy is our top priority. Our app ensures that your personal data stays secure. You can create, organize, and review flashcards efficiently while using AI-powered assistance for an enhanced learning experience.</p>
     </section>
 
-    <section>
-        <h2>1. Information We Collect</h2>
-        <ul>
-            <li><strong>AI Processing Data</strong>: When you use the AI flashcard generator or chatbot assistance, your input (questions, prompts, or flashcard content) is sent to the Mistral API for processing. However, we do not store or retain this data after processing.</li>
-            <li><strong>No Personal Data Collection</strong>: We do not collect, store, or process personal information such as names, email addresses, or contact details.</li>
-            <li><strong>No Usage Tracking</strong>: We do not track how you interact with the app beyond AI processing.</li>
-        </ul>
-    </section>
+  <section>
+    <h2>1. Information We Collect</h2>
+    <ul>
+        <li><strong>Authentication Data</strong>: If you choose to sign in, we use Supabase for authentication. Supabase collects and stores your username and email address to manage your account and enable flashcard synchronization across devices.</li>
+        <li><strong>AI Processing Data</strong>: When you use the AI flashcard generator or chatbot assistance, your input (such as questions, prompts, or flashcard content) is sent to the Mistral API for processing. However, we do not store or retain this data after processing.</li>
+        <li><strong>Limited Personal Data Collection</strong>: Apart from authentication, we do not collect, store, or process personal information such as names or contact details.</li>
+        <li><strong>No Usage Tracking</strong>: We do not track or analyze how you interact with the app beyond AI processing.</li>
+    </ul>
+</section>
 
-    <section>
-        <h2>2. Data Stored on Your Device</h2>
-        <p>All flashcards, progress, and settings you create are stored locally on your device. We do not access, store, or share this data with third parties.</p>
-    </section>
 
-    <section>
-        <h2>3. AI and Third-Party Services</h2>
-        <p>Flashi integrates the Mistral API to provide AI-generated flashcards and chatbot assistance. While the API processes user inputs to generate responses, neither Flashi nor Mistral stores these inputs or outputs after processing.</p>
-        <p>For more details on how Mistral AI handles data, refer to the <a href="https://mistral.ai/privacy-policy" target="_blank">Mistral Privacy Policy</a>.</p>
-    </section>
+  <section>
+    <h2>2. Data Stored on Your Device</h2>
+    <p>All flashcards, progress, and settings you create are stored locally on your device. However, if you sign in, your flashcards and progress may be synced across devices using Supabase authentication. We do not access, store, or share this data beyond what is necessary for synchronization.</p>
+</section>
+
+<section>
+    <h2>3. AI and Third-Party Services</h2>
+    <p>Flashi integrates the Mistral API to provide AI-generated flashcards and chatbot assistance. While the API processes user inputs to generate responses, neither Flashi nor Mistral stores these inputs or outputs after processing.</p>
+    <p>Additionally, we use Supabase for authentication. When you sign in, Supabase collects and stores your username and email to manage your account and sync your flashcards across devices.</p>
+    <p>For more details on how Mistral AI and Supabase handle data, refer to their respective privacy policies:</p>
+    <ul>
+        <li><a href="https://mistral.ai/privacy-policy" target="_blank">Mistral Privacy Policy</a></li>
+        <li><a href="https://supabase.com/privacy" target="_blank">Supabase Privacy Policy</a></li>
+    </ul>
+</section>
 
     <section>
         <h2>4. Permissions</h2>
