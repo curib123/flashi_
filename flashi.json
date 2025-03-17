@@ -1,6 +1,6 @@
 {
-  "latest_version": "1.5.0",
-  "patch_note": "Version 1.5.0\n\n- New: Sign in and sync your progress across multiple devices\n- Updated design for a better and more modern look\n- Fixed various bugs to improve performance and stability",
+  "latest_version": "1.6.0",
+  "patch_note": "Version 1.6.0\n\n- Invite to Earn , Earn $2 for first 50 invites that use your referral code" ,
   "download_link": "https://flashi.en.uptodown.com/android",
   "under_maintenance": false,
   "reason_maintenance_ai": "Fixing minor issues.",
