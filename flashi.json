@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.6.0",
-  "patch_note": "Version 1.6.0\n\n- Invite to Earn , Earn $2 for first 50 invites that use your referral code" ,
-  "download_link": "https://apkpure.com/flashi-ai-powered-flashcard-generator/com.curibtech.flashi/downloading",
+  "latest_version": "1.6.1",
+  "patch_note": "Version 1.6.1\n- Bug Fixes - Invite to Earn , Earn $2 for first 50 invites that use your referral code" ,
+  "download_link": "https://flashi.en.uptodown.com/android/download",
   "under_maintenance": false,
   "reason_maintenance_ai": "Fixing minor issues.",
   "ai_models": [
