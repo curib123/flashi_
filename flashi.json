@@ -7,16 +7,24 @@
   "ai_models": [
     {
       "model_name": "mistral-medium",
+      "version": "1.0.0",
+      "description": "A small version of the Mistral model, optimized for efficiency and speed."
     },
     {
       "model_name": "pixtral-12b-2409",
-       },
+      "version": "1.2.3",
+      "description": "A powerful model with 12 billion parameters, designed for advanced image recognition."
+    },
     {
       "model_name": "open-mistral-nemo",
+      "version": "2.0.1",
+      "description": "An open-source model from the Mistral family, ideal for NLP and text generation tasks."
     },
     {
       "model_name": "mistral-small-latest",
-      }
+      "version": "3.1.4",
+      "description": "A medium-sized Mistral model, offering a balanced performance for various applications."
+    }
   ],
   "listOfQuizQuestionTypes": [
     {
