@@ -46,80 +46,85 @@
         <p>Effective Date: [02/22/2025]</p>
     </header>
 
-    <section>
-        <h2>Welcome to Flashi: AI-Powered Flashcard Generator!</h2>
-        <p>At Flashi, your privacy is our top priority. Our app ensures that your personal data stays secure. You can create, organize, and review flashcards efficiently while using AI-powered assistance for an enhanced learning experience.</p>
-    </section>
-
   <section>
-    <h2>1. Information We Collect</h2>
-    <ul>
-        <li><strong>Authentication Data</strong>: If you choose to sign in, we use Supabase for authentication. Supabase collects and stores your username and email address to manage your account and enable flashcard synchronization across devices.</li>
-        <li><strong>AI Processing Data</strong>: When you use the AI flashcard generator or chatbot assistance, your input (such as questions, prompts, or flashcard content) is sent to the Mistral API for processing. However, we do not store or retain this data after processing.</li>
-        <li><strong>Limited Personal Data Collection</strong>: Apart from authentication, we do not collect, store, or process personal information such as names or contact details.</li>
-        <li><strong>No Usage Tracking</strong>: We do not track or analyze how you interact with the app beyond AI processing.</li>
-    </ul>
-</section>
-
-
-  <section>
-    <h2>2. Data Stored on Your Device</h2>
-    <p>All flashcards, progress, and settings you create are stored locally on your device. However, if you sign in, your flashcards and progress may be synced across devices using Supabase authentication. We do not access, store, or share this data beyond what is necessary for synchronization.</p>
+  <h2>1. Information We Collect</h2>
+  <ul>
+    <li><strong>No Personal Information Collected:</strong> Flashi does not require you to sign in or provide any personal information. We do not collect, store, or process names, email addresses, contact details, or any other personal data.</li>
+    <li><strong>AI Input Data:</strong> When using features like the flashcard generator, chatbot, or daily trivia, your input (e.g. prompts, questions) is sent to the Mistral API or Trivia API for processing. These inputs are not stored after generating a response.</li>
+    <li><strong>No Usage Tracking:</strong> We do not track user behavior or interaction within the app. All actions are processed locally or through one-time API requests without analytics or tracking.</li>
+  </ul>
 </section>
 
 <section>
-    <h2>3. AI and Third-Party Services</h2>
-    <p>Flashi integrates the Mistral API to provide AI-generated flashcards and chatbot assistance. While the API processes user inputs to generate responses, neither Flashi nor Mistral stores these inputs or outputs after processing.</p>
-    <p>Additionally, we use Supabase for authentication. When you sign in, Supabase collects and stores your username and email to manage your account and sync your flashcards across devices.</p>
-    <p>For more details on how Mistral AI and Supabase handle data, refer to their respective privacy policies:</p>
-    <ul>
-        <li><a href="https://mistral.ai/privacy-policy" target="_blank">Mistral Privacy Policy</a></li>
-        <li><a href="https://supabase.com/privacy" target="_blank">Supabase Privacy Policy</a></li>
-    </ul>
+  <h2>2. Data Stored on Your Device</h2>
+  <p>All flashcards, settings, and quiz data are stored locally on your device. You are fully in control of your data and can choose to:</p>
+  <ul>
+    <li><strong>Export</strong> your flashcards and quiz data to a file for backup or sharing.</li>
+    <li><strong>Import</strong> previously saved data into the app to restore your progress.</li>
+  </ul>
+  <p><strong>Scoped Storage (Android 13+):</strong> On devices running Android 13 or later, Flashi uses scoped storage. This means the app can only access files you explicitly select and cannot access your broader file system, ensuring greater privacy and data protection.</p>
 </section>
 
-    <section>
-        <h2>4. Permissions</h2>
-        <p>Flashi may request certain permissions for the app to function correctly:</p>
-        <ul>
-            <li><strong>Storage Access</strong>: To save and retrieve your flashcards and settings locally on your device.</li>
-            <li><strong>Internet Access</strong>: Required for communicating with the Mistral API for AI-powered features.</li>
-        </ul>
-        <p>These permissions are used solely to provide the app's functionality and do not grant access to personal files or sensitive data.</p>
-    </section>
+<section>
+  <h2>3. AI and Third-Party Services</h2>
+  <p>Flashi uses the following APIs to provide its core functionality:</p>
+  <ul>
+    <li><strong>Mistral API:</strong> Used to generate flashcards and chatbot responses based on your input.</li>
+    <li><strong>Trivia API:</strong> Used to deliver daily quiz questions with randomized trivia.</li>
+  </ul>
+  <p>These services process your input temporarily to generate a response, but neither Flashi nor these third parties store your content after processing.</p>
+  <p>Refer to their respective privacy policies:</p>
+  <ul>
+    <li><a href="https://mistral.ai/privacy-policy" target="_blank">Mistral Privacy Policy</a></li>
+    <li><a href="https://opentdb.com/" target="_blank">Open Trivia Database (Trivia API)</a></li>
+  </ul>
+</section>
 
-    <section>
-        <h2>5. Ads and Monetization</h2>
-        <p>Flashi integrates advertisements to support its development. We use AdMob as a third-party service to display ads.</p>
-        
-        <h3>How Ads Work</h3>
-        <p>AdMob may collect limited data, such as device information and approximate location, to serve relevant ads. For more details, refer to Google's <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>.</p>
-        
-        <h3>User Control and Consent</h3>
-        <p>You have control over ad preferences, and rewarded video ads remain optional.</p>
-    </section>
+<section>
+  <h2>4. Permissions</h2>
+  <p>To function properly, Flashi may request the following permissions:</p>
+  <ul>
+    <li><strong>Storage Access:</strong> To import/export your flashcards or quiz data as files.</li>
+    <li><strong>Internet Access:</strong> Required for AI processing via Mistral, daily trivia generation, and ads.</li>
+    <li><strong>Camera or Image Access (Optional):</strong> If you want to generate flashcards or questions from scanned documents or images.</li>
+  </ul>
+  <p>Permissions are only used for the purposes described above and are never used to access sensitive or unrelated data.</p>
+</section>
 
-    <section>
-        <h2>6. Your Responsibilities</h2>
-        <p>As a user of Flashi:</p>
-        <ul>
-            <li>You are responsible for safeguarding the data stored on your device.</li>
-            <li>We recommend regularly backing up your flashcards, especially if you intend to uninstall the app or switch devices.</li>
-        </ul>
-    </section>
+<section>
+  <h2>5. Ads and Monetization</h2>
+  <p>Flashi uses Google AdMob to display ads for monetization purposes.</p>
+  
+  <h3>How Ads Work</h3>
+  <p>AdMob may collect limited information such as device type and approximate location to provide relevant ads. No personal data is collected by Flashi.</p>
+  
+  <h3>User Control</h3>
+  <p>You can control ad preferences through your device settings. Rewarded ads are fully optional and never required to use any core feature of the app.</p>
+  <p>For more info, view Google's <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>.</p>
+</section>
 
-    <section>
-        <h2>7. Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy periodically. Any changes will be effective upon posting the updated policy within the app or on our website.</p>
-    </section>
+<section>
+  <h2>6. Your Responsibilities</h2>
+  <p>As a user of Flashi:</p>
+  <ul>
+    <li>You are responsible for keeping backups of your data using the export feature.</li>
+    <li>We recommend exporting your data before uninstalling or switching devices.</li>
+  </ul>
+</section>
 
-    <section>
-        <h2>8. Contact Us</h2>
-        <p>If you have any questions or concerns about this Privacy Policy or Flashi:</p>
-        <ul>
-            <li>Email: [curibtech@gmail.com]</li>
-        </ul>
-    </section>
+<section>
+  <h2>7. Changes to This Privacy Policy</h2>
+  <p>This policy may be updated periodically. All updates will be shown inside the app or made available on our official website.</p>
+</section>
+
+<section>
+  <h2>8. Contact Us</h2>
+  <p>If you have questions or feedback about this privacy policy, feel free to contact us:</p>
+  <ul>
+    <li>Email: curibtech@gmail.com</li>
+  </ul>
+</section>
+
 
     <footer>
         <p>Thank you for choosing Flashi!</p>
